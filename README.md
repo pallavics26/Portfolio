@@ -89,6 +89,8 @@ public/portfoliopreview.png
 Then:
 
 ```md
+## 📸 Portfolio Preview
+
 ![Portfolio Preview](./public/portfoliopreview.png)
 ```
 
