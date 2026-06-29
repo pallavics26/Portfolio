@@ -1,3 +1,4 @@
+import FadeIn from "../../components/Motion/FadeIn";
 import {
   FaGraduationCap,
   FaCode,
@@ -7,6 +8,7 @@ import {
 
 const About = () => {
   return (
+    <FadeIn>
     <section
   id="about"
   className="min-h-screen bg-slate-800 text-white px-8 py-20"
@@ -93,6 +95,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    </FadeIn>
   );
 };
 

@@ -1,7 +1,9 @@
+import FadeIn from "../../components/Motion/FadeIn";
 import { FaGraduationCap, FaCalendarAlt } from "react-icons/fa";
 
 const Education = () => {
   return (
+    <FadeIn>
     <section
   id="education"
   className="min-h-screen bg-slate-800 text-white px-8 py-20"
@@ -60,6 +62,7 @@ const Education = () => {
 
       </div>
     </section>
+    </FadeIn>
   );
 };
 

@@ -1,7 +1,9 @@
+import FadeIn from "../../components/Motion/FadeIn";
 import { skillCategories } from "../../data/skills";
 
 const Skills = () => {
   return (
+    <FadeIn>
     <section
   id="skills"
   className="min-h-screen bg-slate-900 text-white px-8 py-20"
@@ -56,6 +58,7 @@ const Skills = () => {
         </div>
       </div>
     </section>
+    </FadeIn>
   );
 };
 

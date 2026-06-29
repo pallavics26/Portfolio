@@ -1,5 +1,7 @@
+import FadeIn from "../../components/Motion/FadeIn";
 const Hero = () => {
   return (
+     <FadeIn>
     <section
       id="home"
       className="min-h-screen bg-slate-900 flex flex-col justify-center items-center text-center px-6"
@@ -19,21 +21,31 @@ const Hero = () => {
       </h2>
 
       <p className="mt-6 max-w-xl text-gray-400 leading-8">
-        I build responsive and scalable web applications
-        <br />
-        using modern web technologies.
+        I build responsive and scalable web applications using modern web
+        technologies.
       </p>
 
-      <div className="mt-8 flex gap-4">
-        <button className="bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600 transition">
-          View Projects
-        </button>
+      <div className="mt-8 flex flex-wrap justify-center gap-4">
 
-        <button className="border border-sky-500 text-sky-400 px-6 py-3 rounded-lg hover:bg-sky-500 hover:text-white transition">
+        <a
+          href="#projects"
+          className="bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600 transition"
+        >
+          View Projects
+        </a>
+
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-sky-500 text-sky-400 px-6 py-3 rounded-lg hover:bg-sky-500 hover:text-white transition"
+        >
           Download Resume
-        </button>
+        </a>
+
       </div>
     </section>
+    </FadeIn>
   );
 };
 

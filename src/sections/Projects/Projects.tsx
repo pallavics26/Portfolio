@@ -1,9 +1,11 @@
+import FadeIn from "../../components/Motion/FadeIn";
 import { projects } from "../../data/projects";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
 const Projects = () => {
   return (
+    <FadeIn>
     <section
   id="projects"
   className="min-h-screen bg-slate-800 text-white px-8 py-20"
@@ -85,6 +87,7 @@ const Projects = () => {
 
       </div>
     </section>
+    </FadeIn>
   );
 };
 
