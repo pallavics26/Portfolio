@@ -1,75 +1,178 @@
-# React + TypeScript + Vite
+# 🌐 Pallavi Pandey - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive developer portfolio showcasing my skills, projects, and journey as a Full Stack Developer.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Portfolio:** https://portfolio-iw5m.vercel.app/
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🎨 Modern UI with Tailwind CSS
+- 📱 Fully Responsive Design
+- ⚡ Smooth Scroll Navigation
+- 🎬 Framer Motion Animations
+- 💼 Projects Showcase
+- 🛠️ Technical Skills Section
+- 🎓 Education Section
+- 📩 Functional Contact Form using EmailJS
+- 📄 Resume Download
+- 🌙 Dark Theme
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tech Stack
 
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Backend Services
+
+- EmailJS
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 📂 Folder Structure
+
+```text
+src
+│
+├── assets
+├── components
+│   ├── Motion
+│   └── Navbar
+│
+├── data
+│   ├── projects.ts
+│   └── skills.ts
+│
+├── sections
+│   ├── Hero
+│   ├── About
+│   ├── Skills
+│   ├── Projects
+│   ├── Education
+│   ├── Contact
+│   └── Footer
+│
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📸 Portfolio Preview
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Add a screenshot here after deployment.
+
+Example:
 
 ```
+public/portfolio-preview.png
+```
+
+Then:
+
+```md
+![Portfolio Preview](./public/portfolio-preview.png)
+```
+
+---
+
+## 💻 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/pallavics26/Portfolio.git
+```
+
+Navigate to the project
+
+```bash
+cd Portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📬 Contact
+
+📧 Email
+
+**pallavipandey.2511@gmail.com**
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/pallavipcs27/
+
+🐙 GitHub
+
+https://github.com/pallavics26
+
+---
+
+## 📄 Resume
+
+Download my latest resume directly from the portfolio website.
+
+---
+
+## 📌 Future Improvements
+
+- Blog Section
+- Experience Timeline
+- Certifications
+- Light/Dark Theme Toggle
+- More Animations
+- Project Filtering
+
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub.
+
+---
+
+## 👩‍💻 Author
+
+**Pallavi Pandey**
+
+Full Stack Developer
+
+GitHub: https://github.com/pallavics26
+
+LinkedIn: https://www.linkedin.com/in/pallavipcs27/
