@@ -83,13 +83,13 @@ Add a screenshot here after deployment.
 Example:
 
 ```
-public/portfolio-preview.png
+public/portfoliopreview.png
 ```
 
 Then:
 
 ```md
-![Portfolio Preview](./public/portfolio-preview.png)
+![Portfolio Preview](./public/portfoliopreview.png)
 ```
 
 ---
