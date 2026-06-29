@@ -4,7 +4,10 @@ import { FiExternalLink } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <section className="min-h-screen bg-slate-800 text-white px-8 py-20">
+    <section
+  id="projects"
+  className="min-h-screen bg-slate-800 text-white px-8 py-20"
+>
       <div className="max-w-6xl mx-auto">
 
         {/* Heading */}

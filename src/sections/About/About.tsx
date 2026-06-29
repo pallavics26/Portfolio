@@ -7,7 +7,10 @@ import {
 
 const About = () => {
   return (
-    <section className="min-h-screen bg-slate-800 text-white px-8 py-20">
+    <section
+  id="about"
+  className="min-h-screen bg-slate-800 text-white px-8 py-20"
+>
       <div className="max-w-6xl mx-auto">
 
         {/* Heading */}
