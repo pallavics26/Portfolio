@@ -78,7 +78,6 @@ src
 
 ## 📸 Portfolio Preview
 
-Add a screenshot here after deployment.
 
 Example:
 
