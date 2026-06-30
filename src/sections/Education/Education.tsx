@@ -6,7 +6,7 @@ const Education = () => {
     <FadeIn>
     <section
   id="education"
-  className="min-h-screen bg-slate-800 text-white px-8 py-20"
+  className="min-h-screen bg-slate-900 text-white px-8 py-20"
 >
       <div className="max-w-5xl mx-auto">
 

@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-950 border-t border-slate-800 text-white">
+   <footer className="bg-slate-950 border-t border-slate-800 text-white">
       <div className="max-w-7xl mx-auto px-8 py-10">
 
         {/* Top */}

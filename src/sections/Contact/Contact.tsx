@@ -44,9 +44,9 @@ const Contact = () => {
   return (
     <FadeIn>
     <section
-      id="contact"
-      className="min-h-screen bg-slate-900 text-white px-8 py-20"
-    >
+  id="contact"
+  className="min-h-screen bg-slate-900 text-white px-8 py-20"
+>
       <div className="max-w-6xl mx-auto">
 
         <h2 className="text-4xl font-bold text-center">
